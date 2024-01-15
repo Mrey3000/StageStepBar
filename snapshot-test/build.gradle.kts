@@ -23,7 +23,6 @@ android {
 dependencies {
     implementation(project(Config.Modules.lib))
     testImplementation(project(Config.Modules.lib))
-    testImplementation(project(Config.Modules.libCompose))
     testImplementation(Config.Libs.Android.Compose.ui)
     testImplementation(Config.Libs.Android.Compose.material)
 }
