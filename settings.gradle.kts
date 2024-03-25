@@ -3,5 +3,5 @@ plugins {
 }
 
 include(
-    ":example", ":example-compose", ":stagestepbar", ":stagestepbar-compose", ":snapshot-test"
+    ":stagestepbar"
 )
